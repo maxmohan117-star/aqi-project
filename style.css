@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #1b3a2f;
+  color: white;
+}
+
+/* Top Bar */
+.topbar {
+  background: #dfe6e9;
+  color: black;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Container */
+.container {
+  padding: 20px;
+}
+
+/* Grid Layout */
+.grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+}
+
+/* Card */
+.card {
+  background: #2e5d46;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+/* AQI Value */
+.aqi {
+  font-size: 40px;
+  color: lightgreen;
+}
+
+/* Right Side Cards */
+.small-card {
+  background: #2e5d46;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+/* Info Text */
+.info {
+  font-size: 14px;
+  margin-top: 10px;
+  color: #ccc;
+} 

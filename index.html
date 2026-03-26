@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AQI Dashboard</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+
+<div class="topbar">
+  📍 WELCOME, TO THE UNHEALTHY WORLD
+</div>
+
+<div class="container">
+
+  <div class="grid">
+
+    <!-- LEFT -->
+    <div class="card">
+      <h2>AQI MENT (DETAILS)</h2>
+      <div class="aqi" id="aqiValue">65 - Good</div>
+
+      <p>Global AQI levels on this dashboard are GOOD</p>
+
+      <canvas id="chart"></canvas>
+
+      <div class="info">
+        DATA SOURCE: NOAA GLOBAL AIR QUARTS <br>
+        LAST UPDATED: 2024
+      </div>
+    </div>
+
+    <!-- RIGHT -->
+    <div>
+
+      <div class="small-card">
+        <h3>AQI SOURCE TRACKER</h3>
+        <p>India: 110 - Moderate</p>
+        <p>East Asia: 90 - Moderate</p>
+      </div>
+
+      <div class="small-card">
+        <h3>IMPACTS OF GOOD AQI</h3>
+        <p>✔ Low respiratory disease risk</p>
+        <p>✔ Better outdoor activity</p>
+      </div>
+
+      <div class="small-card">
+        <h3>SOLUTIONS</h3>
+        <p>🌱 Plant trees</p>
+        <p>🚗 Reduce vehicles</p>
+        <p>⚡ Use clean energy</p>
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+<!-- JS -->
+<script src="script.js"></script>
+
+</body>
+</html>
